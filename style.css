@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(54, 52, 52);
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 10em;
+}
+.section-conatiner{
+    /* width: 50%; */
+    border: 2px solid #ffff;
+    border-radius:10px;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-conatiner h3{
+    font-size:1.3rem;
+}
+.selection-container{
+    margin-top: 1rem;
+    display: grid; 
+    gap: 1em ;
+}
+.section-conatiner h5{
+    font-size:1.2rem;
+    color: rgb(46, 15, 218);
+    font-weight: 600;
+}
+.btn{
+    padding:5px 9px;
+    font-size: 0.9rem;
+}
+.input-container{
+    width: 100%;
+    text-align: center;
+}
+.input-container label{
+    font-size: 1.2rem;
+}
+.input-container input{
+    margin: 1.2em;
+    width: 7em;
+    height: 3em;
+    background: none;
+    border-radius: 5px;
+    appearance: textfield;
+    appearance: none;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5em;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+.display-percentage{
+    margin-top: 1.2em;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.back-btn-container{
+    margin: 1.2em;
+}
+.back-btn-container button{
+    padding: 0.5em;
+    font-size:0.8rem
+}
+
+.hide{
+    display: none
+}
