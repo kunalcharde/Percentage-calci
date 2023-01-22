@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percentage Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="first-section" class="section-conatiner" >
+            <h3>Welcome to Percentage Calculator</h3>
+            <div class="selection-container">
+                <h5>Choose Your Option</h5>
+                <button class="btn" id="percent-btn" >Normal Percentage</button>
+                <button class="btn" id="semester-btn">Semesters Percentage</button>
+                <button class="btn" id="cgpa-btn">CGPA Calculator</button>
+            </div>
+        </div>
+        <div id="normal-percentage" class="section-conatiner hide" >
+            <h3>Calculate Your HSC/SSC Percentage</h3>
+            <div class="input-container">
+                <input type="number" placeholder="Obatained Marks" id="obt-marks" autocomplete="off"/>
+                <input type="number" placeholder="Total Marks" id="total-marks" autocomplete="off"/>
+            </div>
+            <div >
+                <button class="btn" id="calculate-btn">Calculate</button>
+            </div>
+            <div id="normal-percentage-calculation" class="display-percentage" >
+                <p id="normal-display-percentage"></p>
+            </div>
+            <div class="back-btn-container">
+                <button class="back-btn">Back to Selection</button>
+            </div>
+        </div>
+        <div id="semester-percentage" class="section-conatiner hide" >
+            <h3>Calculate Your Semesters Percentage</h3>
+            <div class="input-container">
+                <label for="input-semesters"> Enter Total Semesters</label>
+                <input type="number" id="input-semesters" autocomplete="off"/>
+            </div>
+            <div class="input-container">
+                <p id="sem-num">Enter 1st Semester Marks</p>
+                <input type="number" placeholder="Obatained Marks" id="sem-obt-marks" autocomplete="off" />
+                <input type="number" placeholder="Total Marks" id="sem-total-marks" autocomplete="off" />
+            </div>
+            <div>
+                <button class="btn" id="enter-btn">Enter</button>
+                <button class="btn" id="sem-calculate-btn" disabled>Calculate</button>
+            </div>
+            <div id="sem-percentage-calculation" class="display-percentage">
+                <p id="sem-display-percentage">Your Percentage calculation is</p>
+            </div>
+            <div class="back-btn-container">
+                <button class="back-btn">Back to Selection</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
