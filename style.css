@@ -15,7 +15,7 @@ body{
     margin-top: 10em;
 }
 .section-conatiner{
-    /* width: 50%; */
+    width: 90%;
     border: 2px solid #ffff;
     border-radius:10px;
     padding: 2em;
@@ -24,7 +24,10 @@ body{
     flex-direction: column;
 }
 .section-conatiner h3{
-    font-size:1.3rem;
+    text-align: center;
+    font-size:1.8rem;
+    color: #ffff;
+    font-weight: 600;
 }
 .selection-container{
     margin-top: 1rem;
@@ -32,20 +35,26 @@ body{
     gap: 1em ;
 }
 .section-conatiner h5{
-    font-size:1.2rem;
-    color: rgb(46, 15, 218);
-    font-weight: 600;
+    font-size:1.4rem;
+    color: rgb(218, 164, 15);
+    font-weight: 500;
 }
 .btn{
     padding:5px 9px;
     font-size: 0.9rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: none; 
 }
 .input-container{
     width: 100%;
     text-align: center;
+    margin-top: 1rem;
 }
 .input-container label{
     font-size: 1.2rem;
+    color: rgb(255, 174, 0);
+    font-weight: 500;
 }
 .input-container input{
     margin: 1.2em;
@@ -63,6 +72,11 @@ body{
 input[type=number] {
     -moz-appearance: textfield;
   }
+.input-container p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: aquamarine;
+}
 .display-percentage{
     margin-top: 1.2em;
     font-size:1.2rem;
@@ -78,4 +92,11 @@ input[type=number] {
 
 .hide{
     display: none
+}
+#preview{
+    margin : 0 0 1rem 1rem ;
+    font-size: 1.2rem;
+    color: rgb(246, 255, 127);
+    font-weight: 600;
+    transition: delay 0.5s;
 }
